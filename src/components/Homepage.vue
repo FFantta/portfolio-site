@@ -27,8 +27,9 @@ export default {
   data() {
     return {
       items: [
-        { title: "Emotioninput website", description: "A website connecte with Emotioninput Android App and show the information for controller." , link: "https://github.com/FFantta/web"},
-        { title: "My bill App", description: "An iOS app that can record the bill used by camera" , link:"https://github.com/FFantta/myBills"}
+        { title: "Emotioninput Website", description: "A website connecte with Emotioninput Android App and show the information for controller." , link: "https://github.com/FFantta/web"},
+        { title: "My Bill App", description: "An iOS app that can record the bill used by camera" , link:"https://github.com/FFantta/myBills"},
+        { title: "Supa Vue Blog", description: "A blog website using Vue.js" , link:"https://github.com/FFantta/Supa-Vue-Blog"}
       ]
     };
   }
