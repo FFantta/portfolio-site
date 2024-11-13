@@ -14,7 +14,7 @@
             <div class="box" v-for="(item, index) in items" :key="index">
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.description }}</p>
-            </div>>
+            </div>
         </div>
 
     </div>
