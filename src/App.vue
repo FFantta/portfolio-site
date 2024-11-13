@@ -1,21 +1,14 @@
 <template>
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- <Greeting /> -->
    <Homepage />
-   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Greeting from './components/Greeting.vue'
 import Homepage from './components/Homepage.vue';
 
 export default {
   name: 'App',
   components: {
     Homepage
-    // HelloWorld,
-    // Greeting
   }
 }
 </script>
@@ -28,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+html {
+  background-color: #e0f8ff;
 }
 </style>
