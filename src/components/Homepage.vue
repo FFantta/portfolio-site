@@ -10,12 +10,14 @@
             </svg>
         </a>
 
-        <div class="box-container">
-            <div class="box" v-for="(item, index) in items" :key="index">
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.description }}</p>
+        <a class="text-link" :href="item.link" target="_blank" v-for="(item, index) in items" :key="index">
+            <div class="box-container">
+                <div class="box" >
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.description }}</p>
+                </div>
             </div>
-        </div>
+        </a>
 
     </div>
 </template>
@@ -25,7 +27,8 @@ export default {
   data() {
     return {
       items: [
-        { title: "title", description: "description" }
+        { title: "Emotioninput website", description: "A website connecte with Emotioninput Android App and show the information for controller." , link: "https://github.com/FFantta/web"},
+        { title: "My bill App", description: "An iOS app that can record the bill used by camera" , link:"https://github.com/FFantta/myBills"}
       ]
     };
   }
@@ -67,4 +70,9 @@ p {
   font-size: 1em;
   color: #555555;
 }
+
+.text-link {
+  text-decoration: none;
+}
+
 </style>
